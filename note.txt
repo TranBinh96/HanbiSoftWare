@@ -1,0 +1,15 @@
+Remote
+IP 113.190.241.190
+username: remote
+password: hanbi#!8820
+
+MariaDB
+113.190.241.190
+root/Hanbisoft2020
+port 3307
+
+system/1
+user1/1
+binh/1
+chieu/1
+=> password of users always are 1

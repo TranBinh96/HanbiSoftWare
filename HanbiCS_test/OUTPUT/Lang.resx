@@ -1,0 +1,945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="add_row" xml:space="preserve">
+    <value>Add Row</value>
+  </data>
+  <data name="alarm" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="alarm_yn" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="allow_focus_yn" xml:space="preserve">
+    <value>Focusable</value>
+  </data>
+  <data name="al_amber" xml:space="preserve">
+    <value>Amber</value>
+  </data>
+  <data name="al_blink" xml:space="preserve">
+    <value>Blink</value>
+  </data>
+  <data name="al_get" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="al_green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="al_off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="al_red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="al_set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="al_sound" xml:space="preserve">
+    <value>Sound</value>
+  </data>
+  <data name="al_yellow" xml:space="preserve">
+    <value>Yellow</value>
+  </data>
+  <data name="amber" xml:space="preserve">
+    <value>Amber</value>
+  </data>
+  <data name="cd_nm" xml:space="preserve">
+    <value>Code Name</value>
+  </data>
+  <data name="checkbox" xml:space="preserve">
+    <value>Check Box</value>
+  </data>
+  <data name="class_name" xml:space="preserve">
+    <value>Class Name</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="code" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="code_group" xml:space="preserve">
+    <value>Code Group</value>
+  </data>
+  <data name="col_action_proc" xml:space="preserve">
+    <value>CB Action Proc</value>
+  </data>
+  <data name="col_action_text" xml:space="preserve">
+    <value>CB Action Text</value>
+  </data>
+  <data name="col_actoin_param" xml:space="preserve">
+    <value>CB Action Param</value>
+  </data>
+  <data name="col_align" xml:space="preserve">
+    <value>Align</value>
+  </data>
+  <data name="col_decimal_places" xml:space="preserve">
+    <value>NUM Decimal Places</value>
+  </data>
+  <data name="col_default_row" xml:space="preserve">
+    <value>CB Default Row</value>
+  </data>
+  <data name="col_default_row_name" xml:space="preserve">
+    <value>CB Default Row Name</value>
+  </data>
+  <data name="col_default_row_value" xml:space="preserve">
+    <value>CB Default Row Value</value>
+  </data>
+  <data name="col_header_checkbox" xml:space="preserve">
+    <value>CHK Header CheckBox</value>
+  </data>
+  <data name="col_id" xml:space="preserve">
+    <value>Column ID</value>
+  </data>
+  <data name="col_idx" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="col_mask" xml:space="preserve">
+    <value>DT Date Mask</value>
+  </data>
+  <data name="col_sub_total" xml:space="preserve">
+    <value>NUM Sub Total</value>
+  </data>
+  <data name="col_sum_type" xml:space="preserve">
+    <value>NUM Sum Type</value>
+  </data>
+  <data name="col_text" xml:space="preserve">
+    <value>Header Name</value>
+  </data>
+  <data name="col_value_checked" xml:space="preserve">
+    <value>CHK True Value</value>
+  </data>
+  <data name="col_value_unchecked" xml:space="preserve">
+    <value>CHK False Value</value>
+  </data>
+  <data name="col_width" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="combobox" xml:space="preserve">
+    <value>Combo Box</value>
+  </data>
+  <data name="comparison" xml:space="preserve">
+    <value>Comparison</value>
+  </data>
+  <data name="confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="cust_id" xml:space="preserve">
+    <value>Customer ID</value>
+  </data>
+  <data name="dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="dashboard_cases" xml:space="preserve">
+    <value>cases</value>
+  </data>
+  <data name="dashboard_status" xml:space="preserve">
+    <value>Total orders: </value>
+  </data>
+  <data name="date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="delete_row" xml:space="preserve">
+    <value>Delete Row</value>
+  </data>
+  <data name="delivering" xml:space="preserve">
+    <value>Delivering</value>
+  </data>
+  <data name="delivery_order" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="delv" xml:space="preserve">
+    <value>Delivery</value>
+  </data>
+  <data name="delv_dtl" xml:space="preserve">
+    <value>Delivery Detail</value>
+  </data>
+  <data name="delv_id" xml:space="preserve">
+    <value>Delivery ID</value>
+  </data>
+  <data name="delv_no" xml:space="preserve">
+    <value>Delivery No</value>
+  </data>
+  <data name="delv_ord_yn" xml:space="preserve">
+    <value>Delivery Order</value>
+  </data>
+  <data name="delv_seq" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="delv_yn" xml:space="preserve">
+    <value>Delivered </value>
+  </data>
+  <data name="desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="detail_list" xml:space="preserve">
+    <value>Detail List</value>
+  </data>
+  <data name="dir_path" xml:space="preserve">
+    <value>Directory Path</value>
+  </data>
+  <data name="dll_name" xml:space="preserve">
+    <value>DLL File Name</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="en" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="end_date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="field_name" xml:space="preserve">
+    <value>Field Name</value>
+  </data>
+  <data name="file_nm" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="file_path" xml:space="preserve">
+    <value>File Path</value>
+  </data>
+  <data name="file_ver" xml:space="preserve">
+    <value>File Version</value>
+  </data>
+  <data name="filter_yn" xml:space="preserve">
+    <value>Allow Filter</value>
+  </data>
+  <data name="find" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="form" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="full_name" xml:space="preserve">
+    <value>Customer Name</value>
+  </data>
+  <data name="green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="grid_desc" xml:space="preserve">
+    <value>Grid Desctiption</value>
+  </data>
+  <data name="grid_id" xml:space="preserve">
+    <value>Grid ID</value>
+  </data>
+  <data name="grid_name" xml:space="preserve">
+    <value>Grid Name</value>
+  </data>
+  <data name="grp_cd" xml:space="preserve">
+    <value>Group ID</value>
+  </data>
+  <data name="grp_nm" xml:space="preserve">
+    <value>Group Name</value>
+  </data>
+  <data name="gr_id" xml:space="preserve">
+    <value>Group ID</value>
+  </data>
+  <data name="id" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="insert" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="interface" xml:space="preserve">
+    <value>I/F</value>
+  </data>
+  <data name="iud_flag" xml:space="preserve">
+    <value>IUD Flag</value>
+  </data>
+  <data name="ko" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="lang" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="list" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="local_list" xml:space="preserve">
+    <value>Local List</value>
+  </data>
+  <data name="loc_addr" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="loc_addr_dtl" xml:space="preserve">
+    <value>Address Detail</value>
+  </data>
+  <data name="loc_cd" xml:space="preserve">
+    <value>Market Code</value>
+  </data>
+  <data name="loc_nm" xml:space="preserve">
+    <value>Market Name</value>
+  </data>
+  <data name="loc_post_cd" xml:space="preserve">
+    <value>Post Code</value>
+  </data>
+  <data name="login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="login_info_save" xml:space="preserve">
+    <value>Save Login Info</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="mandatory_yn" xml:space="preserve">
+    <value>Required</value>
+  </data>
+  <data name="menu_close_yn" xml:space="preserve">
+    <value>Closable</value>
+  </data>
+  <data name="menu_depth" xml:space="preserve">
+    <value>Menu Depth</value>
+  </data>
+  <data name="menu_group" xml:space="preserve">
+    <value>Menu Group</value>
+  </data>
+  <data name="menu_id" xml:space="preserve">
+    <value>Menu ID</value>
+  </data>
+  <data name="menu_name" xml:space="preserve">
+    <value>Menu Name</value>
+  </data>
+  <data name="menu_open_yn" xml:space="preserve">
+    <value>Openable</value>
+  </data>
+  <data name="menu_type" xml:space="preserve">
+    <value>Menu Type</value>
+  </data>
+  <data name="mobile_no" xml:space="preserve">
+    <value>Mobile No</value>
+  </data>
+  <data name="move_down" xml:space="preserve">
+    <value>Move Down</value>
+  </data>
+  <data name="move_up" xml:space="preserve">
+    <value>Move Up</value>
+  </data>
+  <data name="new" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="new_code" xml:space="preserve">
+    <value>New Code</value>
+  </data>
+  <data name="new_test" xml:space="preserve">
+    <value>New Test</value>
+  </data>
+  <data name="number" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="off" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="order_dtl" xml:space="preserve">
+    <value>Order Detail</value>
+  </data>
+  <data name="ord_no" xml:space="preserve">
+    <value>Order No</value>
+  </data>
+  <data name="ord_qty" xml:space="preserve">
+    <value>Quantity </value>
+  </data>
+  <data name="ord_seq" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ord_status" xml:space="preserve">
+    <value>Order Status</value>
+  </data>
+  <data name="parent_menu_id" xml:space="preserve">
+    <value>Parent Menu ID</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="pay_info" xml:space="preserve">
+    <value>Payment Info</value>
+  </data>
+  <data name="pay_nm" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="pay_tp" xml:space="preserve">
+    <value>Payment</value>
+  </data>
+  <data name="pick" xml:space="preserve">
+    <value>Pickup</value>
+  </data>
+  <data name="picking" xml:space="preserve">
+    <value>Picking</value>
+  </data>
+  <data name="pickup_loc" xml:space="preserve">
+    <value>Pickup Location</value>
+  </data>
+  <data name="pick_dtl" xml:space="preserve">
+    <value>Pickup Detail</value>
+  </data>
+  <data name="pick_id" xml:space="preserve">
+    <value>Pickup ID</value>
+  </data>
+  <data name="pick_no" xml:space="preserve">
+    <value>Pickup No</value>
+  </data>
+  <data name="pick_order" xml:space="preserve">
+    <value>Pickup</value>
+  </data>
+  <data name="pick_ord_yn" xml:space="preserve">
+    <value>Pickup Order</value>
+  </data>
+  <data name="pick_qty" xml:space="preserve">
+    <value>Pickup quantity</value>
+  </data>
+  <data name="pick_seq" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="pick_sts" xml:space="preserve">
+    <value>Pickup status</value>
+  </data>
+  <data name="pick_sts_nm" xml:space="preserve">
+    <value>Pickup status</value>
+  </data>
+  <data name="pick_try" xml:space="preserve">
+    <value>Pickup times</value>
+  </data>
+  <data name="pick_yn" xml:space="preserve">
+    <value>Picked up</value>
+  </data>
+  <data name="popup" xml:space="preserve">
+    <value>Popup</value>
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="prod" xml:space="preserve">
+    <value>Products</value>
+  </data>
+  <data name="prod_cd" xml:space="preserve">
+    <value>Product Code</value>
+  </data>
+  <data name="prod_name" xml:space="preserve">
+    <value>Product Name</value>
+  </data>
+  <data name="prod_nm" xml:space="preserve">
+    <value>Product Name (vi)</value>
+  </data>
+  <data name="prod_nm_en" xml:space="preserve">
+    <value>Product Name (en)</value>
+  </data>
+  <data name="prod_nm_ko" xml:space="preserve">
+    <value>Product Name (ko)</value>
+  </data>
+  <data name="readonly_yn" xml:space="preserve">
+    <value>Readonly</value>
+  </data>
+  <data name="red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="remain_qty" xml:space="preserve">
+    <value>Remain quantity</value>
+  </data>
+  <data name="remark" xml:space="preserve">
+    <value>Remark</value>
+  </data>
+  <data name="save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="search_condition" xml:space="preserve">
+    <value>Search Condition</value>
+  </data>
+  <data name="server_list" xml:space="preserve">
+    <value>Server List</value>
+  </data>
+  <data name="set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="shipping" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="ship_addr" xml:space="preserve">
+    <value>Shipping Address</value>
+  </data>
+  <data name="ship_addr_dtl" xml:space="preserve">
+    <value>Ship Address Detail </value>
+  </data>
+  <data name="ship_post_cd" xml:space="preserve">
+    <value>Postcode</value>
+  </data>
+  <data name="skin" xml:space="preserve">
+    <value>Skin</value>
+  </data>
+  <data name="sort_seq" xml:space="preserve">
+    <value>Sort Sequence</value>
+  </data>
+  <data name="sort_yn" xml:space="preserve">
+    <value>Allow Sort</value>
+  </data>
+  <data name="start_date" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="stop_reason" xml:space="preserve">
+    <value>Stop Reason </value>
+  </data>
+  <data name="stop_yn" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="sys_yn" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="tel_no" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="tot_sum_amt" xml:space="preserve">
+    <value>Total sum amount</value>
+  </data>
+  <data name="tot_supply_amt" xml:space="preserve">
+    <value>Total supply amount</value>
+  </data>
+  <data name="tot_vat_amt" xml:space="preserve">
+    <value>Total VAT amount</value>
+  </data>
+  <data name="treelist" xml:space="preserve">
+    <value>Tree List</value>
+  </data>
+  <data name="unit" xml:space="preserve">
+    <value>Unit</value>
+  </data>
+  <data name="unit_price" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="unit_sum_amt" xml:space="preserve">
+    <value>Unit sum amount</value>
+  </data>
+  <data name="unit_supply_amt" xml:space="preserve">
+    <value>Unit supply amount</value>
+  </data>
+  <data name="unit_vat_amt" xml:space="preserve">
+    <value>Unit VAT amount</value>
+  </data>
+  <data name="up_dt" xml:space="preserve">
+    <value>Updated Date</value>
+  </data>
+  <data name="user" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="user_id" xml:space="preserve">
+    <value>User ID</value>
+  </data>
+  <data name="user_nm" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="user_pw" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="use_yn" xml:space="preserve">
+    <value>Usable</value>
+  </data>
+  <data name="vat_tp" xml:space="preserve">
+    <value>VAT</value>
+  </data>
+  <data name="vi" xml:space="preserve">
+    <value>Vietnamese</value>
+  </data>
+  <data name="visible_yn" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="waiting" xml:space="preserve">
+    <value>Waiting for completion</value>
+  </data>
+  <data name="delv_dt" xml:space="preserve">
+    <value>Delivery Time</value>
+  </data>
+  <data name="delv_nm" xml:space="preserve">
+    <value>Delivery/PickUp</value>
+  </data>
+  <data name="delv_tp" xml:space="preserve">
+    <value>Delivery/PickUp</value>
+  </data>
+  <data name="ord_dt" xml:space="preserve">
+    <value>Order Time</value>
+  </data>
+  <data name="price_card" xml:space="preserve">
+    <value>Voucher Used</value>
+  </data>
+  <data name="price_delv" xml:space="preserve">
+    <value>Delivery Price</value>
+  </data>
+  <data name="price_point" xml:space="preserve">
+    <value>Points Used</value>
+  </data>
+  <data name="price_real" xml:space="preserve">
+    <value>Final Price</value>
+  </data>
+  <data name="price_total" xml:space="preserve">
+    <value>Products Price</value>
+  </data>
+  <data name="unit_delv_price" xml:space="preserve">
+    <value>Unit Delivery Price</value>
+  </data>
+  <data name="unit_sale_price" xml:space="preserve">
+    <value>Unit Sale Price</value>
+  </data>
+  <data name="price_all" xml:space="preserve">
+    <value>Total Price</value>
+  </data>
+  <data name="delv_finish" xml:space="preserve">
+    <value>Delivery / Pick Up Finish</value>
+  </data>
+  <data name="price_coupon" xml:space="preserve">
+    <value>Coupon Used</value>
+  </data>
+  <data name="recv_price_all" xml:space="preserve">
+    <value>Input Total Price</value>
+  </data>
+  <data name="recv_price_card" xml:space="preserve">
+    <value>Input Voucher Used</value>
+  </data>
+  <data name="recv_price_coupon" xml:space="preserve">
+    <value>Input Coupon Used</value>
+  </data>
+  <data name="recv_price_delv" xml:space="preserve">
+    <value>Input Delivery Price</value>
+  </data>
+  <data name="recv_price_point" xml:space="preserve">
+    <value>Input Point Used</value>
+  </data>
+  <data name="recv_price_real" xml:space="preserve">
+    <value>Input Final Price</value>
+  </data>
+  <data name="recv_price_total" xml:space="preserve">
+    <value>Input Products Price</value>
+  </data>
+  <data name="return" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="refund" xml:space="preserve">
+    <value>Refund</value>
+  </data>
+  <data name="return_dtl" xml:space="preserve">
+    <value>Return Details</value>
+  </data>
+  <data name="ret_ord_yn" xml:space="preserve">
+    <value>Returning</value>
+  </data>
+  <data name="ret_yn" xml:space="preserve">
+    <value>Returned</value>
+  </data>
+  <data name="ret_tp" xml:space="preserve">
+    <value>Return Type</value>
+  </data>
+  <data name="ret_dt" xml:space="preserve">
+    <value>Return Date</value>
+  </data>
+  <data name="ret_id" xml:space="preserve">
+    <value>Return ID</value>
+  </data>
+  <data name="ret_no" xml:space="preserve">
+    <value>Return No</value>
+  </data>
+  <data name="ret_reason" xml:space="preserve">
+    <value>Return Reason</value>
+  </data>
+  <data name="ret_seq" xml:space="preserve">
+    <value>Return Sequence</value>
+  </data>
+  <data name="ret_tp_nm" xml:space="preserve">
+    <value>Return Type</value>
+  </data>
+  <data name="ret_price_all" xml:space="preserve">
+    <value>Return Total Price</value>
+  </data>
+  <data name="ret_price_card" xml:space="preserve">
+    <value>Return Voucher Used</value>
+  </data>
+  <data name="ret_price_coupon" xml:space="preserve">
+    <value>Return Coupon Used</value>
+  </data>
+  <data name="ret_price_delv" xml:space="preserve">
+    <value>Return Delivery Price</value>
+  </data>
+  <data name="ret_price_point" xml:space="preserve">
+    <value>Return Point Used</value>
+  </data>
+  <data name="ret_price_real" xml:space="preserve">
+    <value>Return Final Price</value>
+  </data>
+  <data name="ret_price_total" xml:space="preserve">
+    <value>Return Products Price</value>
+  </data>
+  <data name="ret_qty" xml:space="preserve">
+    <value>Return quantity</value>
+  </data>
+  <data name="cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="role_id" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="role_nm" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="price_event_point" xml:space="preserve">
+    <value>Price Event point</value>
+  </data>
+  <data name="recv_price_event_point" xml:space="preserve">
+    <value>Input Event Point</value>
+  </data>
+  <data name="ret_price_event_point" xml:space="preserve">
+    <value>Return Event Point</value>
+  </data>
+  <data name="cancel_qty" xml:space="preserve">
+    <value>Cancel quantity</value>
+  </data>
+  <data name="cancel_if" xml:space="preserve">
+    <value>Cancel I/F</value>
+  </data>
+  <data name="from_dt" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="to_dt" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="item" xml:space="preserve">
+    <value>Item</value>
+  </data>
+  <data name="store" xml:space="preserve">
+    <value>Store</value>
+  </data>
+  <data name="price_cancel" xml:space="preserve">
+    <value>Cancelled Price</value>
+  </data>
+  <data name="total_amt" xml:space="preserve">
+    <value>Original Amount</value>
+  </data>
+  <data name="total_amt_available" xml:space="preserve">
+    <value>Original Amount</value>
+  </data>
+  <data name="total_amt_cancel" xml:space="preserve">
+    <value>Cancelled Amount</value>
+  </data>
+  <data name="total_amt_voucher" xml:space="preserve">
+    <value>Voucher Used</value>
+  </data>
+  <data name="total_amt_coupon" xml:space="preserve">
+    <value>Coupon Used</value>
+  </data>
+  <data name="total_amt_delv" xml:space="preserve">
+    <value>Delivery Fee</value>
+  </data>
+  <data name="total_amt_event_point" xml:space="preserve">
+    <value>Price Event Point</value>
+  </data>
+  <data name="total_amt_offline" xml:space="preserve">
+    <value>Payment Amount</value>
+  </data>
+  <data name="total_amt_online" xml:space="preserve">
+    <value>Sale Amount</value>
+  </data>
+  <data name="total_amt_point" xml:space="preserve">
+    <value>Points Used</value>
+  </data>
+  <data name="total_amt_real" xml:space="preserve">
+    <value>Total Amount</value>
+  </data>
+  <data name="total_amt_return" xml:space="preserve">
+    <value>Return Amount</value>
+  </data>
+  <data name="export" xml:space="preserve">
+    <value>Export</value>
+  </data>
+  <data name="total_amt_atm" xml:space="preserve">
+    <value>ATM</value>
+  </data>
+  <data name="total_amt_card" xml:space="preserve">
+    <value>Card</value>
+  </data>
+  <data name="total_amt_cod" xml:space="preserve">
+    <value>COD</value>
+  </data>
+  <data name="total_amt_gap" xml:space="preserve">
+    <value>GAP</value>
+  </data>
+  <data name="total_amt_payment" xml:space="preserve">
+    <value>Payment Amount</value>
+  </data>
+  <data name="total_prod_price" xml:space="preserve">
+    <value>Total Product Price</value>
+  </data>
+  <data name="price_dc" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="total_amt_dc" xml:space="preserve">
+    <value>Discount</value>
+  </data>
+  <data name="supplier" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="supplier_addr" xml:space="preserve">
+    <value>Supplier Address</value>
+  </data>
+  <data name="supplier_code" xml:space="preserve">
+    <value>Supplier code</value>
+  </data>
+  <data name="supplier_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="supplier_manager_nm" xml:space="preserve">
+    <value>Manager Name</value>
+  </data>
+  <data name="supplier_nm" xml:space="preserve">
+    <value>Supplier Name</value>
+  </data>
+  <data name="supplier_tel_no" xml:space="preserve">
+    <value>Telephone Number</value>
+  </data>
+  <data name="grp_desc" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="in_dt" xml:space="preserve">
+    <value>Insert Data</value>
+  </data>
+  <data name="in_id" xml:space="preserve">
+    <value>Insert ID</value>
+  </data>
+  <data name="up_id" xml:space="preserve">
+    <value>Update ID</value>
+  </data>
+</root>

@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59454713-CBF5-4608-8C43-E90A61EFA271}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SOD</RootNamespace>
+    <AssemblyName>SOD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\OUTPUT\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\OUTPUT\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LIB\CommonUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.2.Core, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v14.2, Version=14.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="HanbiControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LIB\HanbiControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LIB\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebUtil, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LIB\WebUtil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="popCancelProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popCancelProduct.Designer.cs">
+      <DependentUpon>popCancelProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popCancel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popCancel.Designer.cs">
+      <DependentUpon>popCancel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popRefund.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popRefund.Designer.cs">
+      <DependentUpon>popRefund.cs</DependentUpon>
+    </Compile>
+    <Compile Include="popDeliveryFinish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="popDeliveryFinish.Designer.cs">
+      <DependentUpon>popDeliveryFinish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SOD_Delivery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SOD_Delivery.Designer.cs">
+      <DependentUpon>SOD_Delivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SOD_Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SOD_Order.Designer.cs">
+      <DependentUpon>SOD_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SOD_Pickup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SOD_Pickup.Designer.cs">
+      <DependentUpon>SOD_Pickup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SOD_Return.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SOD_Return.Designer.cs">
+      <DependentUpon>SOD_Return.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="popCancelProduct.resx">
+      <DependentUpon>popCancelProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popCancel.resx">
+      <DependentUpon>popCancel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popRefund.resx">
+      <DependentUpon>popRefund.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="popDeliveryFinish.resx">
+      <DependentUpon>popDeliveryFinish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOD_Delivery.resx">
+      <DependentUpon>SOD_Delivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOD_Order.resx">
+      <DependentUpon>SOD_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOD_Pickup.resx">
+      <DependentUpon>SOD_Pickup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SOD_Return.resx">
+      <DependentUpon>SOD_Return.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\COM\COM.csproj">
+      <Project>{d852c55d-cb19-475b-86d9-615dc7bee279}</Project>
+      <Name>COM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SYS\SYS.csproj">
+      <Project>{ffb0c5d3-e5fe-42d6-9374-4122a86126a1}</Project>
+      <Name>SYS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_m.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_xl.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
